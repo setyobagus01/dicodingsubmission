@@ -1,0 +1,283 @@
+@media screen and (max-width: 420px) {
+  /* Nature Container */
+
+  .cover-text .title-cover {
+    font-size: 2.3rem;
+  }
+
+  .cover-text .quote {
+    font-size: 1.5rem;
+  }
+
+  /* End Nature Container */
+
+  /* Gallery Container */
+
+  .img-gallery {
+    width: 273px;
+    height: 311px;
+    justify-self: center;
+    object-fit: cover;
+  }
+
+  .content {
+    width: 95%;
+    justify-content: center;
+    height: 50vh;
+  }
+
+  .content-title {
+    font-size: 2rem;
+  }
+
+  .content-text {
+    width: 100%;
+    font-size: 0.9rem;
+  }
+
+  .slides {
+    width: 40%;
+    margin: 2rem auto 0 auto;
+  }
+
+  /* End Gallery Container */
+
+  /* Profile Container */
+
+  .img-profile {
+    width: 273px;
+    height: 311px;
+    justify-self: center;
+    object-fit: cover;
+  }
+
+  .profile-title {
+    font-size: 2rem;
+    margin-bottom: 0;
+  }
+
+  .profile-bio {
+    width: 100%;
+    font-size: 0.9rem;
+  }
+
+  /* End Profile Container */
+
+  /* Footer */
+
+  footer {
+    align-items: flex-start;
+    min-height: 25vh;
+    justify-content: space-around;
+  }
+
+  .details {
+    margin-left: 2rem;
+  }
+
+  .contact {
+    font-size: 1.3rem;
+    margin-bottom: 0rem;
+  }
+  .phone-number,
+  .email {
+    font-size: 0.9rem;
+  }
+
+  .copyright {
+    font-size: 0.8rem;
+  }
+
+  /* End Footer */
+}
+
+@media screen and (min-width: 1000px) {
+  .img-gallery {
+    width: 407px;
+    height: 657px;
+    justify-self: flex-end;
+    object-fit: cover;
+  }
+
+  .content {
+    width: 50%;
+    height: 75vh;
+    justify-content: flex-start;
+  }
+
+  .content-title {
+    font-size: 3.5rem;
+  }
+
+  .content-text {
+    font-size: 1.2rem;
+    width: 75%;
+  }
+
+  /* Profile */
+
+  .img-profile {
+    width: 477px;
+    height: 530px;
+    justify-self: center;
+    object-fit: cover;
+  }
+
+  .profile-title {
+    font-size: 3.5rem;
+  }
+
+  .profile-bio {
+    font-size: 1.2rem;
+    width: 75%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  /* Header & Nav */
+  header {
+    justify-content: space-between;
+  }
+
+  header .title {
+    font-size: 1.2rem;
+    margin-left: 5%;
+  }
+
+  .logo {
+    width: 50px;
+    height: 50px;
+    margin-left: 43%;
+    margin-right: 27%;
+  }
+
+  .header-active {
+    background: rgba(37, 33, 33, 0.9);
+  }
+
+  nav {
+    width: auto;
+    margin-right: 5%;
+  }
+
+  .navbar {
+    display: block;
+    cursor: pointer;
+  }
+
+  .menu {
+    position: fixed;
+    flex-direction: column;
+    top: 10vh;
+    right: 0;
+    height: 90vh;
+    justify-content: space-around;
+    background: rgba(37, 33, 33, 0.9);
+    width: 100%;
+    /* z-index: -1; */
+    transition: all 0.5s ease;
+    transform: translateX(100%);
+  }
+
+  .menu-item {
+    padding: 2rem;
+  }
+
+  .navbar-active {
+    transform: translateX(0%);
+  }
+
+  /* End of Header & Nav */
+
+  /* Nature Container */
+
+  .cover-text {
+    top: 35%;
+    left: 0;
+    right: 0;
+  }
+
+  .cover-text .title-cover {
+    font-size: 2.5rem;
+  }
+
+  .cover-text .quote {
+    font-size: 1.8rem;
+  }
+
+  .place-name {
+    display: none;
+  }
+
+  .arrow {
+    animation: none;
+  }
+
+  .scroll-down span {
+    display: none;
+  }
+
+  /* End Nature Container */
+
+  /* Gallery Container */
+
+  .content-wrapper {
+    max-width: 95%;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+
+  .content {
+    justify-content: center;
+  }
+
+  .slides {
+    width: 40%;
+    margin: 3rem auto 0 auto;
+  }
+
+  /* End Gallery Container */
+
+  /* Profile Container */
+
+  .profile-wrapper {
+    max-width: 95%;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+
+  .profile-description {
+    width: 95%;
+    height: 50vh;
+    justify-content: center;
+  }
+
+  /* End Profile Container */
+
+  /* Footer */
+
+  footer {
+    align-items: flex-start;
+    min-height: 25vh;
+    justify-content: space-around;
+  }
+
+  .details {
+    margin-left: 2rem;
+  }
+
+  .contact {
+    font-size: 1.3rem;
+    margin-bottom: 0rem;
+  }
+  .phone-number,
+  .email {
+    font-size: 0.9rem;
+  }
+
+  .copyright {
+    font-size: 0.8rem;
+  }
+
+  /* End Footer */
+}
